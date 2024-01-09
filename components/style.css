@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/top-view-pan-with-fish-copy-space.jpg);
+}
+.logo {
+  width: 44%;
+  top: 10px;
+  padding-top: 1%;
+}
+
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0% 4%;
+}
+
+.navbartext {
+  flex: 1;
+  text-align: right;
+  padding-right: 4%;
+}
+
+.navbartext ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 0% 4%;
+}
+
+.navbartext ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.fish-logo {
+  width: 12%;
+  top: 20px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 0% 2%;
+}
+
+/*HERO SECTİON*/
+
+.hero {
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 20px;
+  padding: 100px 20px;
+}
+
+.hero-img {
+  width: 85%;
+  border-radius: 50px;
+}
+
+.hero-text {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  right: 200px;
+}
+
+.social img {
+  width: 5%;
+  padding: 8px;
+}
+.social {
+  padding: 20px;
+}
+/*HERO SECTİON*/
+
+/*MENU SECTİON*/
+
+.menu {
+  width: 100%;
+  background-image: url(/special/g.jpg);
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-container {
+  padding-top: 2%;
+  flex-basis: 32%;
+  border-radius: 50px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-images img {
+  width: 40%;
+  padding: 3%;
+  border-radius: 70px;
+}
+
+/*MENU SECTİON*/
+
+/*CHEF SPECİAL*/
+
+.chef-special {
+  width: 100%;
+  height: 100vb;
+  background-image: url(/special/12.jpg);
+  padding-top: 100px;
+
+  background-size: cover;
+}
+
+.chef-special-container {
+  border-radius: 200px;
+  box-shadow: 17px 17px 34px, -17px -17px 34px;
+  display: flex;
+  padding: 5% 4%;
+}
+
+.chef-special-container img {
+  width: 30%;
+  padding: 3% 4%;
+  border-radius: 110px;
+}
+
+.chef-special-img {
+}
+
+.chef-img {
+}
+.chef-special-text {
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  display: block;
+  font-size: 25px;
+}
+
+/*CHEF SPECİAL*/
+
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background: url(/special/12.jpg);
+
+  background-position: center;
+  background-size: cover;
+  color: white;
+  box-shadow: 10px 10px 24px, -10px -10px 24px;
+  border-radius: 10px;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
